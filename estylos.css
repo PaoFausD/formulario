@@ -1,0 +1,190 @@
+header{
+    display: flex;
+    justify-content:space-between; 
+    align-items: center; 
+    gap: 20px; 
+    background-color: rgb(12, 66, 79);
+}
+input{
+    width: 700px;
+    height: 30px;
+}
+hr{
+    background: red;
+}
+.contenFornreloj{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+.form-container{
+    display: flex;
+    flex-direction: column; 
+    flex-grow: 1; 
+    max-width: 900px; 
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+.contenBotones{
+    display: flex;
+    width: 100px;
+    justify-content: center;
+    margin: auto;
+    gap: 20px;
+}
+button{
+    background-color: #1c4044; 
+    color: white; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 16px; 
+    transition: background-color 0.3s ease;
+}
+/* Intento de dar forma a las cajas video-ubicacion-carrusel */
+.contenTres{
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    
+}
+.contenDos{
+    align-items: center;
+}
+.video-container{
+    border: rgb(12, 66, 79) solid 3px;
+    border-radius:5px ;
+    display: flex;
+    justify-content:center;
+    max-width: 600px; 
+    margin-right: 30px;
+    padding-top:0px;
+    
+}
+.ubicacion-container{
+    border: rgb(12, 66, 79) solid 3px;
+    border-radius:5px ;
+    padding: 0px;
+    
+}
+.reloj-container{
+    display: flex;
+    flex-shrink: 0; 
+}
+    
+
+footer{
+    width: 40%;
+    margin: auto;
+    padding-top: 20px;
+    
+}
+footer p{
+    width: 200px;
+    margin: auto;
+}
+
+/* estilos del carrusel*/
+#contenItemsCarrusel{
+    border:rgb(12, 66, 79) solid 3px;
+    border-radius: 5px;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    
+}
+.itemCarrusel{
+    height: 200px;
+    position: relative;
+    
+
+}
+.tarjetaCarrusel{
+    height: 100%;
+}
+#tarjetaCarrusel-1{
+    background-color: rgb(209, 184, 232);
+}
+#tarjetaCarrusel-2{
+    background-color:rgb(155, 216, 216)
+}
+#tarjetaCarrusel-3{
+    background-color:#c69fc6;
+}
+
+.flechasCarrusel{
+    height: 89%;
+    width: 89%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+a{
+    text-decoration: none;
+}
+#contenPuntos{
+    width: 50%;
+    margin: auto;
+    height: 10px;
+}
+.contenInterno{
+    max-width: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    
+}
+.imgCarrusel{
+    width: 100%;
+    height: 100%;
+}
+.contenFooter {
+    background: linear-gradient(#3B5C5C, #BD9971);
+    color: white;
+    display: flex;
+    flex-direction: column; /* Apila los elementos verticalmente */
+    justify-content: center; /* Centra el contenido verticalmente */
+    align-items: center; /* Centra el contenido horizontalmente */
+    height: 250px;
+}
+.contenElementos {
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Centra el div de las redes */
+    padding-top: 10px;
+}
+.contenRedes {
+    display: flex; /* ¡Esto es CLAVE! Convierte el contenedor en un flexbox */
+    justify-content: center;
+    gap: 20px; /* Aquí se aplica la separación entre las imágenes */
+    margin-top: 30px;
+}
+
+/*Extra-footer*/
+.footer-links {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+}
